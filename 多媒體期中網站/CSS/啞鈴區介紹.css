@@ -1,0 +1,102 @@
+header{
+    margin-top:-70px;
+    margin-left:-10px;
+}
+.head_color{
+    position: relative;
+    z-index: 1;
+    width:1270px; 
+    height:195px;
+}
+.logo_{
+    position: absolute;
+    top:5px;
+    left: 120px;
+    width: 260px;
+    z-index: 2;
+}
+.head_text{
+    top:81px;
+    left:13cm;
+    position: absolute;
+    z-index: 2;
+    font-size:25px;
+    white-space:nowrap;
+}
+.button_{
+    padding: 20px 25px 20px 25px;
+    color:white;
+    text-decoration: none;
+}
+.button_:hover{
+    background-color: black;
+}
+.title_a{
+    font-size:50px;
+    font-family:"微軟正黑體";
+    margin-left:14.5cm;
+    margin-top: 1cm;
+    margin-bottom: 0.5cm;
+    white-space:nowrap;
+}
+hr{
+    white-space:nowrap;
+    margin-left: 6cm;
+    width:800px;
+}
+.im{
+    white-space:nowrap; 
+}
+.in_text{
+    font-size:20px;
+    font-family:"微軟正黑體";
+    text-align:left;
+    margin-top: 1.5cm;
+    margin-left: 7.5cm;
+    white-space:nowrap;
+    margin-bottom: 1.5cm;
+}
+.title_b{
+    font-size:50px;
+    font-family:"微軟正黑體";
+    margin-left:14.1cm;
+    margin-top: 1cm;
+    white-space:nowrap;
+    margin-bottom: 0.5cm;
+}
+p{
+    font-weight:bold;
+    font-size:25px;
+}
+.and{
+    position:static;
+    margin-left:-10px;
+    clear:left;
+    margin-top:2cm;
+}
+.and_color{
+    width:1270px; 
+    height:300px;
+    margin-bottom: -2cm;
+}
+.ig_{
+    position: absolute;
+    z-index:0;
+    left:14.2cm;
+    margin-top:-6cm;
+}
+.line_end{
+    position: absolute;
+    margin-left: -4.1cm;
+    margin-top: -20px;
+    width:600px;
+    white-space:nowrap;
+}
+.end_text{
+    color:white;
+    font-size:20px;
+    margin-top:-1.7cm;
+    margin-left: 13cm;
+    font-family: "微軟正黑體";
+    white-space:nowrap;
+}

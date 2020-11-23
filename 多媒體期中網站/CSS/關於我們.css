@@ -1,0 +1,244 @@
+header {
+    margin-top: -70px;
+    margin-left: -10px;
+}
+
+.head_color {
+    position: relative;
+    z-index: 1;
+    width: 1270px;
+    height: 195px;
+}
+
+.head_text {
+    top: 81px;
+    left: 13cm;
+    position: absolute;
+    z-index: 2;
+    font-size: 25px;
+    white-space: nowrap;
+}
+
+.logo_{
+    position: absolute;
+    top:5px;
+    left: 120px;
+    width: 260px;
+    z-index: 2;
+}
+.button_ {
+    padding: 20px 25px 20px 25px;
+    color: white;
+    text-decoration: none;
+}
+.button_:hover{
+    background-color: black;
+}
+
+.pic_tim {
+    border-color: red;
+    border-style: groove;
+    border-width: 10px;
+    position: relative;
+    left: 50px;
+    margin-top: 1cm;
+    margin-left: 1cm;
+}
+.pic_:hover{
+   
+}
+
+.txt_tim1{
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    width: 290px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+}
+
+.txt_tim2{
+    position: absolute;
+    top: 250px;
+    left: 850px;
+    width: 290px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+}
+
+.pic_hao {
+    border-color: red;
+    border-style: groove;
+    border-width: 10px;
+    position: relative;
+    right: -850px;
+}
+
+.txt_hao1 {
+    position: absolute;
+    top: 780px;
+    left: 150px;
+    width: 290px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+}
+
+.txt_hao2 {
+    position: absolute;
+    top: 780px;
+    left: 500px;
+    width: 290px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+}
+
+.pic_alan {
+    border-color: red;
+    border-style: groove;
+    border-width: 10px;
+    position: relative;
+    left: 50px;
+    margin-left: 1cm;
+}
+
+.txt_alan1 {
+    position: absolute;
+    top: 1300px;
+    left: 500px;
+    width: 290px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+}
+
+.txt_alan2 {
+    position: absolute;
+    top: 1300px;
+    left: 850px;
+    width: 290px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+}
+
+.pic_two {
+    border-color: red;
+    border-style: groove;
+    border-width: 10px;
+    position: relative;
+    right: -850px;
+}
+
+.txt_two1 {
+    position: absolute;
+    top: 1850px;
+    left: 150px;
+    width: 290px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+}
+
+.txt_two2 {
+    position: absolute;
+    top: 1850px;
+    left: 500px;
+    width: 290px;
+    font-size: 20px;
+    font-family: "微軟正黑體";
+}
+
+hr{
+    width: 1100px;
+    margin-top: 1.5cm;
+    margin-bottom: 1.5cm;
+}
+
+.img_tim1{
+    width: 150px;
+    position: absolute;
+    top: 250px;
+    left: 500px;
+}
+
+.img_tim2 {
+    width: 130px;
+    position: absolute;
+    top: 241px;
+    left: 850px;
+}
+
+.img_hao1 {
+    width: 150px;
+    position: absolute;
+    top: 780px;
+    left: 150px;
+}
+
+.img_hao2 {
+    width: 130px;
+    position: absolute;
+   top: 771px;
+   left: 500px;
+}
+
+.img_alan1 {
+    width: 150px;
+    position: absolute;
+    top: 1300px;
+    left: 500px;
+}
+
+.img_alan2 {
+    width: 130px;
+    position: absolute;
+     top: 1291px;
+     left: 850px;
+}
+.img_two1 {
+    width: 150px;
+    position: absolute;
+    top: 1850px;
+    left: 150px;
+}
+
+.img_two2 {
+    width: 130px;
+    position: absolute;
+    top: 1841px;
+    left: 500px;
+}
+
+.and {
+    position: static;
+    margin-left: -10px;
+    clear: left;
+    margin-top: 1cm;
+}
+
+.and_color {
+    width: 1270px;
+    height: 300px;
+    margin-bottom: -2cm;
+}
+
+.ig_ {
+    position: absolute;
+    z-index: 0;
+    left: 14.1cm;
+    margin-top: -6cm;
+}
+
+.line_end {
+    position: absolute;
+    margin-left: -4.1cm;
+    margin-top: -20px;
+    width: 600px;
+    white-space: nowrap;
+}
+
+.end_text {
+    color: white;
+    font-size: 20px;
+    margin-top: -1.7cm;
+    margin-left: 13cm;
+    font-family: "微軟正黑體";
+    white-space: nowrap;
+}

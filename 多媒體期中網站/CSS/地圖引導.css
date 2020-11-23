@@ -1,0 +1,109 @@
+header {
+    margin-top: -70px;
+    margin-left: -10px;
+}
+
+.head_color {
+    position: relative;
+    z-index: 1;
+    width: 1270px;
+    height: 195px;
+}
+.logo_{
+    position: absolute;
+    top:5px;
+    left: 120px;
+    width: 260px;
+    z-index: 2;
+}
+.head_text {
+    top: 81px;
+    left: 13cm;
+    position: absolute;
+    z-index: 2;
+    font-size: 25px;
+    white-space: nowrap;
+}
+.button_:hover{
+    background-color: black;
+}
+.button_ {
+    padding: 20px 25px 20px 25px;
+    color: white;
+    text-decoration: none;
+}
+
+.title_f {
+    font-size:50px;
+    font-family:"微軟正黑體";
+    margin-left:13.4cm;
+    margin-top: 1cm;
+    white-space:nowrap;
+    margin-bottom: 0.5cm;
+}
+.title_c {
+    font-size:50px;
+    font-family:"微軟正黑體";
+    margin-left:14.1cm;
+    margin-top: 1cm;
+    white-space:nowrap;
+    margin-bottom: 0.5cm;
+}
+
+.line_f {
+    white-space:nowrap;
+    margin-left: 6cm;
+    margin-bottom: 3cm;
+    width:800px;
+}
+
+.plan_1 {
+    position: relative;
+    left: 320px;
+    top: -50px;
+    border:10px outset red;
+}
+
+.plan_2 {
+    position: relative;
+    left: 225px;
+    top: -50px;
+    border:10px outset red;
+}
+
+.and {
+    position: static;
+    margin-left: -10px;
+    clear: left;
+    margin-top: 2cm;
+}
+
+.and_color {
+    width: 1270px;
+    height: 300px;
+    margin-bottom: -2cm;
+}
+
+.ig_ {
+    position: absolute;
+    z-index: 0;
+    left: 14.2cm;
+    margin-top: -6cm;
+}
+
+.line_end {
+    position: absolute;
+    margin-left: -4.1cm;
+    margin-top: -20px;
+    width: 600px;
+    white-space: nowrap;
+}
+
+.end_text {
+    color: white;
+    font-size: 20px;
+    margin-top: -1.7cm;
+    margin-left: 13cm;
+    font-family: "微軟正黑體";
+    white-space: nowrap;
+}
