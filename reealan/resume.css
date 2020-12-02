@@ -1,0 +1,312 @@
+body{
+    background-color:#00ffff;
+}
+.phone_div{
+    position:absolute;
+    animation-name:p;
+    animation-duration:3s;
+    animation-fill-mode:both;
+}
+@keyframes p{
+    from{
+        left:-30%;
+    }
+    to{
+        left: 1%;
+    }
+}
+.phone_img{
+    position: absolute;
+    width:15cm;
+    height:16.5cm;
+}
+.ph_icon{
+    position: absolute;
+    width:7cm;
+    height:7cm;
+    top:2cm;
+    left:2.5cm;
+}
+.ph_text{
+    position: absolute;
+    margin-top: 0.5cm;
+    top:9cm;
+    left:1.5cm;
+    font-size: 55px;
+    font-family:"微軟正黑體";
+    color:#00ffff;
+}
+.name_div{
+    position: relative;
+    text-align:center;
+    margin-top: -5px;
+}
+.name_img{
+    width:28cm;
+    height:18cm;
+}
+.me_img{
+    position: absolute;
+    left:19.5cm;
+    top:0.6cm;
+    width:11.5cm;
+    height:11.5cm;
+}
+.name_text{
+    position: absolute;
+    top:12cm;
+    left:19.7cm;
+    font-size: 80px;
+    font-family:"微軟正黑體";
+    color:#00ffff;
+}
+.icon_f{
+    position: absolute;
+    width: 2.5cm;
+    top:15cm;
+    left:18cm;
+    transition:0.5s;
+}
+.icon_f:hover{
+    transform: scale(1.2);
+ }
+.icon_g{
+    position: absolute;
+    width: 2.5cm;
+    top:15cm;
+    left:22cm;
+    transition:0.5s;
+}
+.icon_g:hover{
+   transform: scale(1.2);
+}
+.icon_e{
+    position: absolute;
+    width: 2.5cm;
+    top:15cm;
+    left:26cm;
+    transition:0.5s;
+}
+.icon_e:hover{
+    transform: scale(1.2);
+ }
+.icon_h{
+    position: absolute;
+    width: 2.5cm;
+    top:15cm;
+    left:30cm;
+    transition:0.5s;
+}
+.icon_h:hover{
+    transform: scale(1.2);
+ }
+.day_div{
+    position: absolute;
+    z-index: -1;
+    top:4px;
+    left:35.4cm;
+    animation-name:d;
+    animation-duration:3s;
+    animation-fill-mode:both;
+}
+@keyframes d{
+    from{
+        left:110%;
+    }
+    to{
+        left: 69.5%;
+    }
+}
+.day_img{
+    position: absolute;
+    width:15cm;
+    height:16.5cm;
+}
+.cake_icon{
+    position: absolute;
+    width:10cm;
+    height:8cm;
+    top:1.8cm;
+    left:4.5cm;
+}
+.day_text{
+    position: absolute;
+    font-size: 55px;
+    margin-top: 0.5cm;
+    top:9cm;
+    left:5.2cm;
+    font-family:"微軟正黑體";
+    color:#00ffff;
+}
+.content{
+    font-size: 35px;
+    font-family:"微軟正黑體";
+    border: 1cm solid #33ccff;
+    margin-top: -18px;
+    margin-left:1cm;
+    margin-right:1cm;
+}
+.left_content
+{
+    float: left;
+    border: 0.5cm solid #33ccff;
+    margin:0.5cm 0.5cm 0.5cm 1cm;
+}
+.title1{
+    font-weight: bold;
+    font-size:50px;
+    margin-left: 1cm;
+}
+.title2{
+    margin-left: 0.6cm;
+    margin-top: 0.5cm;
+}
+.line{
+    border:5px solid #EE7700;
+    margin:0cm 0.5cm 0.8cm 0.5cm;
+    width:13cm;
+    height:0.7cm;
+}
+.up1{
+    background-color:	#FFCC22 ;
+    width: 0cm;
+    height:100%;
+    animation-name:up1;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 2s;
+}
+@keyframes up1{
+    from{
+      width:0%;
+    }
+    to{
+      width:70%;
+    }
+}
+.up2{
+    background-color:	#FFCC22 ;
+    width: 0cm;
+    height:100%;
+    animation-name:up2;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 2.2s;
+}
+@keyframes up2{
+    from{
+      width:0%;
+    }
+    to{
+      width:50%;
+    }
+}
+.up3{
+    background-color:	#FFCC22 ;
+    width: 0cm;
+    height:100%;
+    animation-name:up3;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 2.4s;
+}
+@keyframes up3{
+    from{
+      width:0%;
+    }
+    to{
+      width:40%;
+    }
+}
+.up4{
+    background-color:#FFCC22 ;
+    width: 0cm;
+    height:100%;
+    animation-name:up4;
+    animation-duration: 2s;
+    animation-fill-mode: both;
+    animation-delay: 2.6s;
+}
+@keyframes up4{
+    from{
+      width:0%;
+    }
+    to{
+      width:70%;
+    }
+}
+.right_content{
+    border: 0.5cm solid #33ccff;
+    margin:0.5cm 1cm 0.5cm 17cm;
+}
+.title1_right{
+    font-weight: bold;
+    font-size:50px;
+    margin-left: 1cm;
+    margin-bottom: 1cm;
+}
+.ti{
+    margin-left: 10cm;
+    font-size:37px;
+    padding: 10px 100px 10px 100px;
+    border-radius: 10%;
+    background-color:#33ccff ;
+    border: 1px solid  #33ccff;
+}
+.ti1{
+    position: relative;
+    top:1.3cm;
+    margin-left: 10cm;
+    font-size:37px;
+    padding: 10px 100px 10px 100px;
+    border-radius: 10%;
+    background-color:#33ccff ;
+    border: 1px solid  #33ccff;
+}
+.blue_div{
+    position: absolute;
+    height:14cm;
+    width:27cm;
+    background-color: #33ccff;
+    z-index: -1;
+    top:25.5cm;
+    left:19.5cm;
+}
+.ball{
+    width:13cm;
+    float: right;
+    margin-top: 2cm;
+    margin-right: 0.5cm;
+    border-radius: 10%;
+}
+.blue_div1{
+    position: absolute;
+    height:10cm;
+    width:27cm;
+    background-color: #33ccff;
+    z-index: -1;
+    top:44.7cm;
+    left:19.5cm;
+}
+.ball_text{
+    position: relative;
+    margin-left: 1cm;
+    margin-top: 3cm;
+    margin-bottom: 5cm;
+    font-size: 30px;
+}
+.ball1{
+    width:13cm;
+    float: right;
+    margin-top: 3.5cm;
+    margin-right: 0.5cm;
+    border-radius: 10%;
+}
+.ch_text{
+    position: relative;
+    margin-top: 7cm;
+    margin-left: 1cm;
+    margin-bottom: 4cm;
+    font-size: 30px;
+}
+
