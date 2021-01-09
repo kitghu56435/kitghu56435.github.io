@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favico.ico" type="image/x-icon" />
+    <title>HAVE</title>
+    <style>
+        @import url("CSS/have.css");
+    </style>
+</head>
+<body>
+    <div class="home">
+      <div class="have_top">
+        <div style="text-align:center;font-size:25px;font-family: 'Times New Roman', Times, serif;">
+          <b>A classic that has been refined by time.</b>
+        </div>
+        <div class="search_img"><img src="image/search.png" style="height:1.5cm;width:1.5cm"></div>
+        <div class="search_text">
+          <form>
+            <input class="s" >
+          </form>
+        </div>
+      </div>
+      <div class="have_head">  <!--標題欄-->
+        <a href="index.html" title="點擊回首頁"><img src="image/HAVE.png"  style="margin:-0.5cm" /></a>
+          <div class="icon_div">
+            <body>
+              <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;color: #000000;text-decoration: none;cursor: pointer;font-family: 'Times New Roman', Times, serif;">SING IN&nbsp;/&nbsp;</a>
+              
+              <div id="id01" class="modal">
+                
+                <form class="modal-content animate" action="check.jsp" method="post">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="image/sign_in.jpg" alt="Avatar" class="avatar">
+                  </div>
+              
+                  <div class="container">
+                    <label for="membersID"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="membersID" required>
+              
+                    <label for="pwd"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="pwd" required>
+                      
+                    <button type="submit"><b>Login</b></button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                  </div>
+              
+                  <div class="container" style="background-color:	#025e7a">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="pwd">Forgot <a href="#">password?</a></span>
+                  </div>
+                </form>
+              </div>
+              
+              <script>
+              // Get the modal
+              var modal = document.getElementById('id01');
+              
+              // When the user clicks anywhere outside of the modal, close it
+              window.onclick = function(event) {
+                  if (event.target == modal) {
+                      modal.style.display = "none";
+                  }
+              }
+              </script>
+             
+             <!--會員註冊-->
+             <a onclick="document.getElementById('id02').style.display='block'" style="font-family: 'Times New Roman', Times, serif;width:auto;color: #000000;text-decoration: none;cursor: pointer;">REGISTER&nbsp;/&nbsp</a>
+             <div id="id02" class="m2">
+             <span onclick="document.getElementById('id02').style.display='none'" class="close1" title="Close Modal">&times;</span>
+    <form class="modal-content1" action="add.jsp">
+      <div class="container1">
+        <img src="image/worf.png" style="width: 4cm;">
+        <h1>註冊會員REGISTER</h1>
+        <p>請填寫此表格以創建一個會員帳戶。</p>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <label for="email"><b>電子郵件Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+  
+        <label for="psw"><b>密碼Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+  
+        <label for="psw-repeat"><b>請再次輸入密碼Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">記住我Remember me
+        </label>
+  
+        <p>By creating an account you agree to our <a href="#" style="color:rgb(90, 16, 112)">Terms & Privacy</a>.</p>
+  
+        <div class="clearfix1">
+          <input type="button" class="b1" value="Cancel" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn1"></input>
+          <input type="submit" class="b2" value="Sign&nbsp;Up" class="signupbtn"></input>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id02');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+             
+            
+              
+              
+              
+              </body>
+             <a href="baycar.html"  style="color: #000000;text-decoration: none;font-family: 'Times New Roman', Times, serif;">SHOPPING CART</a>
+            </div>
+        </div>
+      <div class="content">  <!--網頁內容-->
+       
+         <div class="story">
+           <div class="lion"><img src="image/lion.png"></div>
+           <div class="story_img"><img src="image/story.jpg"></div>
+           <div class="leopard"><img src="image/leopard.png"></div>
+         </div>
+         <div class="l_right"></div> <!--輪播牆-->
+         <div class="l_left"></div> <!--輪播牆-->
+          <div class="oxo"> <!--輪播鏡頭-->
+               <div class="photo_1"> <!--輪播膠片-->
+                 <a href="PersonalproductsYUU.html"><img style="width:100%;height:100%" src="image/Haoyu/have2.jpg"/></a>
+               </div>
+               <div class="photo_2"> <!--輪播膠片-->
+                <a href="Personalproducts.html"><img style="width:100%;height:100%" src="image/Alan/have3.jpg"/></a>
+                 </div>
+               <div class="photo_3"> <!--輪播膠片-->
+                <a href="PersonalproductsYU.html"><img style="width:100%;height:100%" src="image/Vivian/have1.jpg"/></a>
+               </div>
+               <div class="photo_4"> <!--輪播膠片-->
+                <a href="PersonalproductsYC.html"><img style="width:100%;height:100%" src="image/Emily/have1.jpg"/></a>
+               </div>
+          </div>
+          <div class="hot_products"><!--排行榜-->
+            <div class="bbd"><!--排行榜的框-->
+            <p class="pop">popularity charts</p>
+              <p class="h">NO.1</p>
+              <p class="h" >NO.2</p>
+              <p class="h" >NO.3</p>
+            </div>
+            <a href="information/informationA21.html" title="點選查看商品"><img src="image/product2/A21.jpg" style="position: relative;top:-7cm;left: 10.5cm;;height: 7cm;width: 7cm;"></a>
+            <a href="information/informationE11.html" title="點選查看商品"><img src="image/product2/E11.jpg"
+                style="position: relative;top:-7cm;left: 12.5cm;;height: 7cm;width: 7cm;"></a>
+            <a href="information/informationV11.html" title="點選查看商品"><img src="image/product2/V11.jpg"
+                style="position: relative;top:-7cm;left: 14.5cm;;height: 7cm;width: 7cm;"></a>
+          </div>
+      </div>
+	  </div>
+
+							
+	  <div class="have_end"> <!--尾欄-->
+       <div class="end_text">
+          Contact us<br/>
+          0800-248-988<br/>
+          Copyright © 2020 CYIM. All Rights Reserved
+       </div>
+       <div class="end_icon">
+            <a href="https://zh-tw.facebook.com/"><img src="image/fbicon.png" class="ig_icon"></a>
+            <a href="https://www.instagram.com/"><img src="image/igicon.png" class="fb_icon"></a>
+            <a href="https://github.com/"><img src="image/githubicon.png" class="github_icon"></a>
+       </div>
+      </div>
+    <div>
+</body>
+</html>
