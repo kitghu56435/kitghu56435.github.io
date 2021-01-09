@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="image/favico.ico" type="image/x-icon" />
+    <title>Mamber</title>
+    <style>
+        @import url("CSS/memberdata.css");
+    </style>
+</head>
+<body>
+    <div class="home">
+      <div class="have_top">
+        <div style="text-align:center;font-size:25px;font-family: 'Times New Roman', Times, serif;position: relative;z-index: 1;">
+          <b>A classic that has been refined by time.</b>
+        </div>
+        <div class="search_img"><img src="image/search.png" style="height:1.5cm;width:1.5cm"></div>
+        <div class="search_text">
+          <form>
+            <input class="s" >
+          </form>
+        </div>
+      </div>
+      <div class="have_head">  <!--標題欄-->
+        <a href="index.html" title="點擊回首頁"><img src="image/HAVE.png"  style="margin:-0.5cm" /></a>
+          <div class="icon_div">
+            <body>
+              <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;color: #000000;text-decoration: none;cursor: pointer;font-family: 'Times New Roman', Times, serif;">SING IN&nbsp;/&nbsp;</a>
+              
+              <div id="id01" class="modal">
+                
+                <form class="modal-content animate" action="check.jsp" method="post">
+                  <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="image/sign_in.jpg" alt="Avatar" class="avatar">
+                  </div>
+              
+                  <div class="container">
+                    <label for="membersID"><b>Username</b></label>
+                    <input type="text" placeholder="Enter Username" name="membersID" required>
+              
+                    <label for="pwd"><b>Password</b></label>
+                    <input type="password" placeholder="Enter Password" name="pwd" required>
+                      
+                    <button type="submit"><b>Login</b></button>
+                    <label>
+                      <input type="checkbox" checked="checked" name="remember"> Remember me
+                    </label>
+                  </div>
+              
+                  <div class="container" style="background-color:	#025e7a">
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                    <span class="pwd">Forgot <a href="#">password?</a></span>
+                  </div>
+                </form>
+              </div>
+              
+              <script>
+              // Get the modal
+              var modal = document.getElementById('id01');
+              
+              // When the user clicks anywhere outside of the modal, close it
+              window.onclick = function(event) {
+                  if (event.target == modal) {
+                      modal.style.display = "none";
+                  }
+              }
+              </script>
+             
+             <!--會員註冊-->
+             <a onclick="document.getElementById('id02').style.display='block'" style="font-family: 'Times New Roman', Times, serif;width:auto;color: #000000;text-decoration: none;cursor: pointer;">REGISTER&nbsp;/&nbsp</a>
+             <div id="id02" class="m2">
+             <span onclick="document.getElementById('id02').style.display='none'" class="close1" title="Close Modal">&times;</span>
+    <form class="modal-content1" action="add.jsp">
+      <div class="container1">
+        <img src="image/worf.png" style="width: 4cm;">
+        <h1>註冊會員REGISTER</h1>
+        <p>請填寫此表格以創建一個會員帳戶。</p>
+        <p>Please fill in this form to create an account.</p>
+        <hr>
+        <label for="email"><b>電子郵件Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+  
+        <label for="psw"><b>密碼Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+  
+        <label for="psw-repeat"><b>請再次輸入密碼Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">記住我Remember me
+        </label>
+  
+        <p>By creating an account you agree to our <a href="#" style="color:rgb(90, 16, 112)">Terms & Privacy</a>.</p>
+  
+        <div class="clearfix1">
+          <input type="button" class="b1" value="Cancel" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn1"></input>
+          <input type="submit" class="b2" value="Sign&nbsp;Up" class="signupbtn"></input>
+        </div>
+      </div>
+    </form>
+  </div>
+  
+  <script>
+  // Get the modal
+  var modal = document.getElementById('id02');
+  
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+             
+            
+              
+              
+              
+              </body>
+             <a href="baycar.html"  style="color: #000000;text-decoration: none;font-family: 'Times New Roman', Times, serif;">SHOPPING CART</a>
+            </div>
+        </div>
+      <div class="content">  <!--網頁內容-->
+       <div class="data">
+          <span class="tt">會員資料</span>
+          <form style="margin-left:3cm;margin-top:0cm;" class="formc">
+              <span style="margin-left:-1.55cm;position: relative;top:40px;">電子信箱：abc@gmail.com</span><br/>
+              <span style="position: relative;top:60px;">密碼：0900432555</span><br/>
+              <input type="button" class="car_button" value="修改資料">
+              <input type="button" class="car_button" value="登出">
+          </form>
+       </div>
+       <div class="biydata">
+        <span class="tt2">消費紀錄</span>
+        <div class="box">
+          <div class="product_img">
+            <img src="image/product2/A11.jpg" style="width:100%;height:100%;border:1px solid black">
+          </div>
+          <div class="producttext">
+              商品名稱：加大羊毛混紡大衣<br/>
+              商品尺寸：(XL)<br/>
+              商品數量：1<br/><br/>
+              小計：TWD.4599
+          </div>
+        </div>
+        <div class="box">
+            <div class="product_img">
+                <img src="image/product2/A21.jpg" style="width:100%;height:100%;border:1px solid black">
+            </div>
+            <div class="producttext">
+                商品名稱：內刷毛夾克<br/>
+                商品尺寸：(XL)<br/>
+                商品數量：1<br/><br/>
+                小計：TWD.6599
+            </div>
+        </div>
+        <div class="box">
+            <div class="product_img">
+                <img src="image/product2/A22.jpg" style="width:100%;height:100%;border:1px solid black">
+            </div>
+            <div class="producttext">
+                商品名稱：黑色皮革手拿包<br/>
+                商品尺寸：45cm×35cm<br/>
+                商品數量：1<br/><br/>
+                小計：TWD.1599
+            </div>
+        </div>
+       </div>
+       <div class="talldata">
+        <span class="tt2">評論紀錄</span>
+        <table class="tablec" border="1">
+            <tr>
+                <th style="width:9cm;">商品名稱</th>
+                <th style="width:7cm;">評論星星</th>
+                <th style="width:17cm;">評論內容</th>
+            </tr>
+            <tr>
+                <td>加大羊毛混紡大衣</td>
+                <td>★★★★★</td>
+                <td>我喜歡大衣</td>
+            </tr>
+            <tr>
+                <td>內刷毛夾克</td>
+                <td>★★★★★</td>
+                <td>看起來保暖又時尚</td>
+            </tr>
+            <tr>
+                <td>黑色皮革手拿包</td>
+                <td>★★★★★</td>
+                <td>我喜歡</td>
+            </tr>
+            <tr>
+                <td>設計品牌單邊削肩帽T</td>
+                <td>★</td>
+                <td>我覺得這個太少人能駕馭了</td>
+            </tr>
+            <tr>
+                <td>.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>.</td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td>.</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+       </div>
+    </div>
+	  <div class="have_end"> <!--尾欄-->
+       <div class="end_text">
+          Contact us<br/>
+          0800-248-988<br/>
+          Copyright © 2020 CYIM. All Rights Reserved
+       </div>
+       <div class="end_icon">
+            <a href="https://zh-tw.facebook.com/"><img src="image/fbicon.png" class="ig_icon"></a>
+            <a href="https://www.instagram.com/"><img src="image/igicon.png" class="fb_icon"></a>
+            <a href="https://github.com/"><img src="image/githubicon.png" class="github_icon"></a>
+       </div>
+      </div>
+    <div>
+</body>
+</html>

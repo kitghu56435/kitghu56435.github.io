@@ -1,0 +1,587 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image:url(../image/ccc.jpg);
+    overflow-x: hidden;
+}
+.home{
+    overflow: hidden;
+}
+.member{
+  position: relative;
+  top:2.8cm;
+  left:44cm;
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:25px;
+  font-weight: bold;
+}
+.have_top{
+    width:100%;
+    height:1.2cm;
+    background-color: 	#A23400;
+}
+.search_img{
+    position:relative;
+    width:1.5cm;
+    top:2cm;
+    left:1cm;
+}
+.search_text{
+    position: relative;
+    overflow: hidden;
+    top:-0.5cm;
+    height:3cm;
+    width:8cm;
+    left:3cm;
+    background-image:url(../image/ee.jpg);
+    animation:text_sw 6s 1;
+    animation-play-state:paused;
+}
+@keyframes text_sw{
+    33%{width:8cm;}
+    66%{width:8cm;}
+    100%{
+       width:0cm;}
+}
+.s{
+    position:relative;
+    top:1cm;
+    margin-left:1px;
+    border-radius:10px;
+    height:0.8cm;
+    width:7.5cm;
+    font-size:24px;
+    transition: 2s;
+    display: block;
+}
+.have_head{
+    width:100%;
+    height:4cm;
+    background-image:url(../image/ee.jpg);
+    box-shadow:2px 2px 20px #000000;
+    text-align:center;
+}
+.icon_div{
+    position: relative;
+    top:-1.5cm;
+    left:18cm;
+    font-size: 25px; 
+    font-weight: bold;
+}
+.content{
+    overflow:hidden;
+}
+.top_img{
+    margin:0.5cm auto;
+    width:70%;
+    height:17cm;
+    background-color:blue;
+}
+.line{
+    width:85%;
+    margin:2cm auto;
+    height:5px;
+    background-color:black;
+    border:1px solid black;
+}
+.product_content{
+    overflow:hidden;
+    margin-top:2.5cm;
+}
+.product1_img{
+    position: absolute;;
+    height:21cm;
+    width:20cm;
+    margin-left:3.5cm;
+    background-color:blue;
+}
+.product1_text{
+    position: absolute;
+    height:20cm;
+    width:20cm;
+    left:23.5cm;
+    margin-top:-21cm;
+    transition:0.5s;
+}
+.storyimg{
+    width:15cm;
+    height:15cm;
+    margin:3cm;
+    background-color:#000000;
+}
+.product1_img_1{
+    position: relative;
+    height:20cm;
+    width:20cm;
+    left:200%;
+    margin-top:-22cm;
+    transition:0.5s ;
+    opacity: 0;
+}
+.bigc:hover > .big{
+   animation:big_sw 1.5s infinite;
+}
+@keyframes big_sw{
+    50%{box-shadow: 0 0 0 8px white;}
+    75%{transform:scale(1.01);}
+    100%{transform:scale(1);}
+}
+.bigc:hover + .product1_text {
+    opacity: 0;
+    left:200%;
+}
+.bigc:hover + .product1_text + .product1_img_1{
+    opacity: 1;
+    left:24cm;
+}
+.product2_img{
+    position: absolute;
+    height:21cm;
+    width:20cm;
+    margin-top:24cm;
+    left:27cm;
+    background-color:blue;
+}
+.product2_text{
+    position: absolute;
+    height:20cm;
+    width:20cm;
+    margin-left:-24cm;
+    margin-top:-21cm;
+    transition:0.8s;
+}
+.product2_img_1{
+    position: absolute;
+    height:20cm;
+    width:20cm;
+    left:-200%;
+    margin-top:-22cm;
+    transition:0.8s;
+    opacity: 0;
+}
+.product2_img_2{
+    position: absolute;
+    height:20cm;
+    width:20cm;
+    left:-200%;
+    margin-top:-22cm;
+    transition:0.8s;
+    opacity: 0;
+}
+.product2_img_3{
+    position: relative;
+    height:20cm;
+    width:20cm;
+    left:-200%;
+    margin-top:-22cm;
+    transition:0.8s;
+    opacity: 0;
+}
+.jackc:hover > .jack{
+    animation:big_sw 1.5s infinite;
+}
+.jackc:hover + .blackbagc > .blackbag{
+    position: absolute;
+    opacity: 0;
+}
+.jackc:hover + .blackbagc + .jeansc > .jeans{
+    opacity: 0;
+}
+.jackc:hover + .blackbagc + .jeansc + .product2_text{
+    margin-left:-200%;
+    opacity: 0;
+}
+.jackc:hover + .blackbagc + .jeansc + .product2_text + .product2_img_1{
+    margin-left:80%;
+    opacity: 1;
+}
+.blackbagc:hover > .blackbag{
+    animation:big_sw 1.5s infinite;
+}
+.blackbagc:hover + .jeansc > .jeans{
+    opacity: 0;
+}
+.blackbagc:hover + .jeansc + .product2_text{
+    margin-left:-200%;
+    opacity: 0;
+}
+.blackbagc:hover + .jeansc + .product2_text + .product2_img_1 + .product2_img_2{
+    margin-left:80%;
+    opacity: 1;
+}
+.jeansc:hover > .jeans{
+    animation:big_sw 1.5s infinite;
+}
+.jeansc:hover + .product2_text{
+    margin-left:-200%;
+    opacity: 0;
+}
+.jeansc:hover + .product2_text +  .product2_img_1 + .product2_img_2 +  .product2_img_3{
+    margin-left:80%;
+    opacity: 1;
+}
+.product3_img{
+    position: absolute;
+    height:21cm;
+    width:20cm;
+    margin-top:49cm;
+    margin-left:3.5cm;
+    background-color:blue;
+}
+.product3_text{
+    position: absolute;
+    height:20cm;
+    width:20cm;
+    margin-top:-20.5cm;
+    margin-left:-3cm;
+    left:26.5cm;
+    transition:0.8s;
+}
+.product3_img_1{
+    position: absolute;
+    height:20cm;
+    width:20cm;
+    margin-top:-22cm;
+    margin-left:3.5cm;
+    left:200%;
+    transition:0.5s;
+    opacity: 0;
+}
+.product3_img_2{
+    position: relative;
+    height:20cm;
+    width:20cm;
+    margin-top:-22cm;
+    margin-left:3.5cm;
+    left:200%;
+    transition:0.5s;
+    opacity: 0;
+}
+.shirtc:hover > .shirt{
+    animation:big_sw 1.5s infinite;
+}
+.shirtc:hover + .widepantsc > .widepants{
+    opacity: 0;
+}
+.shirtc:hover + .widepantsc + .product3_text{
+    opacity: 0;
+    left:200%;
+}
+.shirtc:hover + .widepantsc + .product3_text + .product3_img_1{
+    left:100%;
+    opacity: 1;
+}
+.widepantsc:hover > .widepants{
+    animation:big_sw 1.5s infinite;
+}
+.widepantsc:hover + .product3_text{
+    opacity: 0;
+    left:200%;
+}
+.widepantsc:hover + .product3_text + .product3_img_1 + .product3_img_2{
+    left:100%;
+    opacity: 1;
+}
+.imagep{
+    position: relative;
+    height:16cm;
+    width:14cm;
+    background-color: blue;
+    margin:1.2cm auto 0;
+}
+.tt{
+    position: relative;
+    font-size:50px;
+    text-align: center;
+    margin-top:0.5cm;
+}
+.have_end{
+    position: relative;
+    margin-top:72cm;
+    height:3.5cm;
+    width:100%;
+    background-color:black;
+}
+.end_text{
+    position: relative;
+    top:20px;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    font-family:"微軟正黑體";
+}
+.end_icon{
+    position: relative;
+    top:-1.6cm;
+    left:1cm;
+}
+.ig_icon{
+    position: relative;
+    width:2.5cm;
+    height:2.5cm;
+    transition: 2s;
+}
+.ig_icon:hover{
+    animation:end_icon 0.5s 1;
+}
+.fb_icon{
+    position: relative;
+    width:2.5cm;
+    height:2.5cm;
+    transition: 2s;
+}
+.fb_icon:hover{
+    animation:end_icon 0.5s 1;
+}
+.github_icon{
+    position: relative;
+    width:2.5cm;
+    height:2.5cm;
+    transition: 2s;
+}
+.github_icon:hover{
+    animation:end_icon 0.5s 1;
+}
+@keyframes end_icon{
+    25%{transform: rotate(45deg);}
+    50%{transform: rotate(-45deg)}
+    100%{transform: rotate(0deg)}
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* 登入頁面裡按鍵 */
+button {
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #295d88;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+
+/* 會員登入的取消按鍵 */
+.cancelbtn {
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  left: -6.7cm;
+  width: 4cm;
+  padding: 10px 18px;
+  background-color:  #295d88;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(32, 102, 194, 0); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* 登入頁面的地方 */
+.modal-content {
+  background-image:url(../image/ccc.jpg);
+  margin: 7% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  width: 49%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+/*會員註冊*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* 輸入區的框*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons下面綠色按鍵 */
+button2 {
+  font-weight: bold;
+  background-color: #086b0b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button2:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn1 {
+  font-weight: bold;
+  padding: 14px 20px;
+  background-color: #7e160f;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn1, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container1 {
+  padding: 16px;
+}
+
+/* 外面背景(background) */
+.m2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #485d47;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content1 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close1 Button (x) */
+.close1 {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #a81308;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn1, .signupbtn {
+     width: 100%;
+  }
+}

@@ -1,0 +1,456 @@
+body{
+    margin:0px;
+    padding:0px;
+    background-image:url(../image/ccc.jpg);
+    overflow-x: hidden;
+}
+.home{
+    overflow: hidden;
+}
+.member{
+  position: relative;
+  top:2.8cm;
+  left:44cm;
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:25px;
+  font-weight: bold;
+}
+.have_top{
+    width:100%;
+    height:1cm;
+    background-color: 	#A23400;
+}
+.search_img{
+    position:relative;
+    width:1.5cm;
+    top:1.8cm;
+    left:1cm;
+}
+.search_text{
+    position: relative;
+    height:3cm;
+    width:8cm;
+    top:-20px;
+    left:3cm;
+    background-image:url(../image/ee.jpg);
+    animation:text_sw 6s 1;
+    animation-play-state:paused;
+}
+@keyframes text_sw{
+    33%{
+      width:8cm;
+    }
+    66%{
+        width:8cm;
+    }
+    100%{
+       width:0cm;
+    }
+}
+.s{
+    position:relative;
+    top:1cm;
+    margin-left:1px;
+    border-radius:10px;
+    height:0.8cm;
+    width:7.5cm;
+    font-size:24px;
+    transition: 2s;
+    display: block;
+}
+.have_head{
+    width:100%;
+    height:4cm;
+    background-image:url(../image/ee.jpg);
+    box-shadow:2px 2px 20px #000000;
+    text-align:center;
+}
+.icon_div{
+    position: relative;
+    top:-1.5cm;
+    left:18cm;
+    font-size: 25px; 
+    font-weight: bold;
+}
+.content{
+
+}
+table{
+    position: relative;
+    text-align:center;
+    font-size:30px;
+    margin-left:20%;
+    margin-top:1cm;
+    margin:1cm auto 0;
+    color:white;
+}
+select{
+    font-size:30px;
+    background-color:#6b4c4c;
+    color:white;
+}
+th{
+    padding:10px 2cm 10px 2cm;
+}
+tr:hover {background-color: #3f3333;}
+.one{
+    padding-left:2cm;
+    padding-right:2cm;
+}
+.plus{
+    width:1.3cm;
+    height:1.3cm;
+    transition-duration:0.3s;
+    background-color:#6a9999;
+    color:white;
+}
+.plus:hover{
+    background-color:#B3D9D9;
+    color:black;
+}
+#num{
+    padding:0.2cm 2cm 0.2cm 2cm;
+    margin-left:10px;
+    margin-right:10px;
+    background-image:url(../image/ccc.jpg);
+    font-size:30px;
+    border:2px solid white;
+    color:white;
+}
+.line{
+    width:85%;
+    margin:2cm auto;
+    height:5px;
+    background-color:black;
+    border:1px solid black;
+}
+.m{
+    height:22cm;
+    width:70%;
+    margin:1cm auto 0;
+    margin-top:-1cm;
+}
+.m_text{
+    height:18cm;
+    width:15cm;
+    border:1px solid black;
+    font-size:30px;
+    margin:1cm auto 0;
+}
+.allmoney{
+    height:1.2cm;
+    width:15cm;
+    border:1px solid black;
+    font-size:30px;
+    margin-left:3cm;
+    margin:0 auto 0;
+}
+.car_button{
+    position: relative;
+    cursor: pointer;
+    font-size:30px;
+    font-weight:bold;
+    width:540px;
+    height:70px;
+    transition:0.3s;
+    color:white;
+    background-color: #6a9999;
+    margin-left:10.5cm;
+    margin-top:10px;
+    
+}
+.car_button:hover{
+    background-color:#B3D9D9;
+    color:black;
+}
+.car_button:active{
+    background-color:#008888;
+}
+.have_end{
+    height:3.5cm;
+    width:100%;
+    background-color:black;
+}
+.end_text{
+    position: relative;
+    top:20px;
+    color:white;
+    font-size:20px;
+    text-align:center;
+    font-family:"微軟正黑體";
+}
+.end_icon{
+    position: relative;
+    top:-1.6cm;
+    left:1cm;
+}
+.ig_icon{
+    position: relative;
+    width:2.5cm;
+    height:2.5cm;
+    transition: 2s;
+}
+.ig_icon:hover{
+    animation:end_icon 0.5s 1;
+}
+.fb_icon{
+    position: relative;
+    width:2.5cm;
+    height:2.5cm;
+    transition: 2s;
+}
+.fb_icon:hover{
+    animation:end_icon 0.5s 1;
+}
+.github_icon{
+    position: relative;
+    width:2.5cm;
+    height:2.5cm;
+    transition: 2s;
+}
+.github_icon:hover{
+    animation:end_icon 0.5s 1;
+}
+@keyframes end_icon{
+    25%{transform: rotate(45deg);}
+    50%{transform: rotate(-45deg)}
+    100%{transform: rotate(0deg)}
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* 登入頁面裡按鍵 */
+button {
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: #295d88;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+
+/* 會員登入的取消按鍵 */
+.cancelbtn {
+  font-size: 20px;
+  font-weight: bolder;
+  position: relative;
+  left: -6.7cm;
+  width: 4cm;
+  padding: 10px 18px;
+  background-color:  #295d88;
+}
+
+/* Center the image and position the close button */
+.imgcontainer {
+  text-align: center;
+  margin: 24px 0 12px 0;
+  position: relative;
+}
+
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}
+
+.container {
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(32, 102, 194, 0); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* 登入頁面的地方 */
+.modal-content {
+  background-image:url(../image/ccc.jpg);
+  margin: 7% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  width: 49%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+     display: block;
+     float: none;
+  }
+  .cancelbtn {
+     width: 100%;
+  }
+}
+/*會員註冊*/
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* 輸入區的框*/
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons下面綠色按鍵 */
+button2 {
+  font-weight: bold;
+  background-color: #086b0b;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button2:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn1 {
+  font-weight: bold;
+  padding: 14px 20px;
+  background-color: #7e160f;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn1, .signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container1 {
+  padding: 16px;
+}
+
+/* 外面背景(background) */
+.m2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #485d47;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content1 {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close1 Button (x) */
+.close1 {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #a81308;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix1::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn1, .signupbtn {
+     width: 100%;
+  }
+}
