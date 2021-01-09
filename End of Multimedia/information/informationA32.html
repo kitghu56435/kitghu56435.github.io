@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Information</title>
+    <link rel="shortcut icon" href="../image/favico.ico" type="image/x-icon" />
+    <title>HAVE</title>
+    <style>
+        @import url("../CSS/information.css");
+    </style>
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <div class="home">
+        <div class="have_top">
+          <div style="text-align:center;font-size:25px;font-family: 'Times New Roman', Times, serif;">
+            <b>A classic that has been refined by time.</b>
+          </div>
+          <div class="search_img"><img src="../image/search.png" style="height:1.5cm;width:1.5cm"></div>
+          <div class="search_text">
+            <form>
+              <input class="s" >
+            </form>
+          </div>
+        </div>
+        <div class="have_head">  <!--標題欄-->
+          <a href="../index.html" title="點擊回首頁"><img src="../image/HAVE.png"  style="margin:-0.5cm" /></a>
+            <div class="icon_div">
+              <body>
+                <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;color: #000000;text-decoration: none;cursor: pointer;font-family: 'Times New Roman', Times, serif;">SING IN&nbsp;/&nbsp;</a>
+                
+                <div id="id01" class="modal">
+                  
+                  <form class="modal-content animate" action="/action_page.php" method="post">
+                    <div class="imgcontainer">
+                      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                      <img src="../image/sign_in.jpg" alt="Avatar" class="avatar">
+                    </div>
+                
+                    <div class="container">
+                      <label for="uname"><b>Username</b></label>
+                      <input type="text" placeholder="Enter Username" name="uname" required>
+                
+                      <label for="psw"><b>Password</b></label>
+                      <input type="password" placeholder="Enter Password" name="psw" required>
+                        
+                      <button type="submit"><b>Login</b></button>
+                      <label>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </label>
+                    </div>
+                
+                    <div class="container" style="background-color:	#025e7a">
+                      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+                      <span class="psw">Forgot <a href="#">password?</a></span>
+                    </div>
+                  </form>
+                </div>
+                
+                <script>
+                // Get the modal
+                var modal = document.getElementById('id01');
+                
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                    if (event.target == modal) {
+                        modal.style.display = "none";
+                    }
+                }
+                </script>
+               
+               <!--會員註冊-->
+               <a onclick="document.getElementById('id02').style.display='block'" style="font-family: 'Times New Roman', Times, serif;width:auto;color: #000000;text-decoration: none;cursor: pointer;">REGISTER&nbsp;/&nbsp</a>
+               <div id="id02" class="m2">
+               <span onclick="document.getElementById('id02').style.display='none'" class="close1" title="Close Modal">&times;</span>
+      <form class="modal-content1" action="/action_page.php">
+        <div class="container1">
+          <img src="../image/worf.png" style="width: 4cm;">
+          <h1>註冊會員REGISTER</h1>
+          <p>請填寫此表格以創建一個會員帳戶。</p>
+          <p>Please fill in this form to create an account.</p>
+          <hr>
+          <label for="email"><b>電子郵件Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+    
+          <label for="psw"><b>密碼Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+    
+          <label for="psw-repeat"><b>請再次輸入密碼Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+          
+          <label>
+            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">記住我Remember me
+          </label>
+    
+          <p>By creating an account you agree to our <a href="#" style="color:rgb(90, 16, 112)">Terms & Privacy</a>.</p>
+    
+          <div class="clearfix1">
+            <button2 type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn1">Cancel</button2>
+            <button2 type="submit" class="signupbtn">Sign Up</button2>
+          </div>
+        </div>
+      </form>
+    </div>
+    
+    <script>
+    // Get the modal
+    var modal = document.getElementById('id02');
+    
+    // When the user clicks anywhere outside of the modal, close it
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+               
+              
+                
+                
+                
+                </body>
+               <a href="../baycar.html"  style="color: #000000;text-decoration: none;font-family: 'Times New Roman', Times, serif;">SHOPPING CART</a>
+              </div>
+          </div>
+        <div class="content">  <!--網頁內容-->
+          <div class="product_img"> <!--商品照-->
+            <img src="../image/product2/A32.jpg" id="product_img" style="width:100%;height:100%;">
+            <img src="../image/too.png" class="toobutton" onclick="imgleft()">
+            <img src="../image/toor.png" class="toorbutton" onclick="imgright()">
+          </div>
+          <div class="product_information"> <!--商品資訊-->
+            <div class="word">
+              <br><span style="font-size: 50px;color:white">[潮流不敗]黑色寬褲</span>
+              <br><span style="font-size: 40px;color:	#FF0000;">TWD.1200</span>
+              <hr class=lline>
+                <p style="font-size:25px;margin-left:10px;color:white">商品尺寸</p>	
+                <input type="button" class="choice" value="S"></input>
+                <input type="button" class="choice" value="M"></input>
+                <input type="button" class="choice" value="L"></input>
+                <input type="button" class="choice" value="XL"></input>
+                <input type="button" class="choice" value="2XL"></input>
+                <p style="font-size:25px;margin-left:10px;color:white">購買數量</p>
+              <div style="margin-bottom:40px;margin-left:30px;">
+                <from >
+                  <input type="button" value="-" class="plus" onclick="lesss()">
+                  <sapn id="num">0</sapn>
+                  <input type="button" value="+" class="plus" onclick="alla()">
+               </from>
+              </div>
+              <span style="position: relative;left: 9.5cm;top: -2.1cm;font-size:22px;margin-left:10px;color:white">庫存數量:</span>
+                <hr class=lline>
+                <input type="button" class="car_button" value="加入購物車">
+                <br/>
+                <div style="font-size:23px;font-family:'微軟正黑體';color:white;">
+                  <p/>顏色:黑色<br/>
+                  材質:99%棉、1%彈性纖維
+                </div>
+               
+              </div>
+              
+            </div>
+          </div>
+          <hr class=line>  <!--線-->
+          <div class="comment">
+            <span style="font-size:50px;color:white">您喜歡我們的商品嗎？</span>
+            <span style="color:#B3D9D9;; font-size:1.5cm;"></span>
+            <span style="font-size:30px;color:white">(共14則評論)</span>
+            <ul style="list-style-type:none;margin-left:2.8cm;">
+              <li><div class="outline" style="margin-top:1cm">
+                    <div class="inline" style="width:70%;"></div>
+                  </div>
+              </li>
+              <li><div class="outline" style="margin-top:1cm;">
+                    <div class="inline" style="width:50%"></div>
+                  </div>
+              </li>
+              <li><div class="outline" style="margin-top:1cm;">
+                   <div class="inline" style="width:10%"></div>
+             </div>
+             </li>
+             <li><div class="outline" style="margin-top:1cm;">
+                  <div class="inline" style="width:0%"></div>
+             </div>
+             </li>
+            <li><div class="outline" style="margin-top:1cm;">
+                  <div class="inline" style="width:0%"></div>
+                </div>
+            </li>
+            </ul>
+            <div style="font-size:32px;margin-top:-9.1cm;margin-left:1cm;color:white"">
+              五顆星&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;(9)<p/>
+              四顆星&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;(4)<p/>
+              三顆星&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;(1)<p/>
+              二顆星&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;(0)<p/>
+              一顆星&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;(0)
+            </div>
+            <div id="star" style="font-size:50px;margin-top:-6.5cm;margin-left:16.5cm;"> 
+              <span class="clickstar" onclick="star1()">☆</span>
+              <span class="clickstar" onclick="star2()">☆</span>
+              <span class="clickstar" onclick="star3()">☆</span>
+              <span class="clickstar" onclick="star4()">☆</span>
+              <span class="clickstar" onclick="star5()">☆</span>
+            </div>
+            <div>
+              <div class="outbox">
+                 <div id="inbox" >
+                   <div class="talkhead">
+                     <img src ="../image/women.jpg" style="width:100%;height:100%;border:1px solid black">
+                   </div>
+                   <div id="box" class="box">
+                     
+                   </div>
+                   <div>
+                     <form class="talk"> 
+                       <input type="textbox" id="textbox" class="textbox">
+                       <input type="button" id="puss" disabled="disabled" value="送出" onclick=" pussword()">
+                     </form>
+                   </div>
+                 </div>
+              </div>
+            </div>
+            <div>
+             <div class="outbox">
+                <div id="inbox" >
+                  <div class="talkhead">
+                    <img src ="../image/women.jpg" style="width:100%;height:100%;border:1px solid black">
+                  </div>
+                  <div class="box1">
+                    <span style="color:yellow;font-size:50px;">★★★★★</span>
+                    <span style="color:black;font-size:25px;margin-left:16.4cm;">2020/1/31</span><br/><br/>
+                    推!好看
+                  </div>
+                </div>
+             </div>
+           </div>
+           <div>
+             <div class="outbox">
+                <div id="inbox" >
+                  <div class="talkhead">
+                    <img src ="../image/women.jpg"  style="width:100%;height:100%;border:1px solid black">
+                  </div>
+                  <div class="box1">
+                    <span style="color:yellow;font-size:50px;">★★★★</span>
+                    <span style="color:black;font-size:25px;margin-left:17.5cm;">2020/1/5</span><br/><br/>
+                    很有設計感的款!喜歡
+                  </div>
+                </div>
+             </div>
+           </div>
+         </div>  
+          </div>
+        </div>  
+        <div class="have_end"> <!--尾欄-->
+         <div class="end_text">
+            <b>Contact us</b><br/>
+            0800-248-988<br/>
+            Copyright © 2020 CYIM. All Rights Reserved
+         </div>
+         <div class="end_icon">
+              <a href="https://zh-tw.facebook.com/"><img src="../image/fbicon.png" class="ig_icon"></a>
+              <a href="https://www.instagram.com/"><img src="../image/igicon.png" class="fb_icon"></a>
+              <a href="https://github.com/"><img src="../image/githubicon.png" class="github_icon"></a>
+         </div>
+        </div>
+      <div>
+        <script>
+          var p = true;
+          function imgright(){
+          var n = document.getElementById("product_img");
+          if(p == true){
+          n.src="../image/product2/A32b.jpg";
+          p = false;
+        }
+  
+}
+          function imgleft(){
+           var n = document.getElementById("product_img");
+           if(p == false){
+           n.src="../image/product2/A32.jpg";
+           p = true;
+         }
+}
+    </script>ㄋ
+</body>
+</html>
