@@ -1,0 +1,77 @@
+body{
+    font-family: '微軟正黑體';
+}
+header{
+    font-size:30px;
+}
+header .navbar-brand{
+    font-size:50px;
+    margin-left:0.5cm;
+}
+header .nav-item{
+    margin-left:0.5cm;
+    margin-right:0.5cm;
+}
+
+
+.bigpg p{
+    font-size:1cm;
+    
+    margin-bottom:30px;
+}
+.bigpg a{
+    font-size:28px;
+    padding:12px 25px;
+    border-radius: 25px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #B9B9FF;
+}
+.bigpg{
+    background-color:#ECECFF;
+    padding:5cm 5cm;
+}
+
+.New_Product .title{
+    text-align:center;
+    padding-top:50px;
+}
+
+.New_Product h1{
+    font-size:4em;
+}
+
+/*RWD*/
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 1950px) { /*Computer*/
+    .bigpg h1{
+        font-size: calc( 3rem +   1.5vw);
+        font-weight: bold;
+    }
+}
+@media (max-width:960px){ /*Phone*/
+    header .navbar-brand{
+        margin:0 auto;
+    }
+    header button{
+        width:10%;
+        height:2cm;
+    }
+    .bigpg h1{
+        font-size:80px;
+    }
+    header .navbar-brand{
+        font-size:100px;
+    }
+    .bigpg{
+        padding:7cm 7cm;
+        padding-left:7%;
+    }
+    header .nav-item{
+        font-size:150%;
+    }
+}
