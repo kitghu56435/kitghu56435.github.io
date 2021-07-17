@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link  rel="stylesheet" href="CSS/Philosophy.css">
+    <title>Philosophy</title>
+</head>
+<body>
+   <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Octopus</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 600px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">項目專區</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">經營理念</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">加入我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">常見問題</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Octopusers</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="write_area">
+        <div class="area1">
+            <div class="title1" id="title1">一切是從堆積如山的雜物說起</div>
+            <div class="img_box1" id="img_box1"><img src="#"></div>
+            <div class="text1">
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+            </div>
+        </div>
+        <div style="clear:both"></div> 
+        <div class="area2">
+            <div class="title2">為什麼要透過Octopus?</div>
+            <div class="img_box2" id="img_box2"><img src="#"></div>
+            <div class="text2">
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <div class="area3">
+            <div class="title3">我們想達成的事情</div>
+            <div class="img_box3" id="img_box3"><img src="#"></div>
+            <div class="text3">
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+                高高高高高高高高高高高高高高高高高高高高高高
+            </div>
+        </div>
+        <div style="clear:both"></div>
+    <div>
+
+
+
+    <footer>
+        <div class="footer_area">
+                <img class="ig_iocn" src="Image/IG_icon.png">
+                <img class="line_iocn" src="Image/Line_iocn.png">
+        </div>
+    </footer>
+
+
+    <script>     
+        function box1move() {
+            var obj = document.getElementById("img_box1");
+            if (window.scrollY >= obj.offsetTop-700) {
+                obj.classList.add('move1');
+            } 
+        }
+        function box2move() {
+            var obj = document.getElementById("img_box2");
+            if (window.scrollY >= obj.offsetTop-700) {
+                obj.classList.add('move2');
+            } 
+        }
+        function box3move() {
+            var obj = document.getElementById("img_box3");
+            if (window.scrollY >= obj.offsetTop-750) {
+                obj.classList.add('move1');
+            } 
+        }
+        window.addEventListener("scroll", box1move);
+        window.addEventListener("scroll", box2move);
+        window.addEventListener("scroll", box3move);
+        box1move();
+    </script>
+</body>
+</html>
