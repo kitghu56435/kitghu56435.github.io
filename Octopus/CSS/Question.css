@@ -1,0 +1,210 @@
+body{
+    font-family: '微軟正黑體';
+}
+header{
+    font-size:30px;
+}
+header .navbar-brand{
+    font-size:50px;
+    margin-left:0.5cm;
+}
+header .nav-item{
+    margin-left:0.5cm;
+    margin-right:0.5cm;
+}
+.Area{
+    padding-top:1cm;
+    padding-bottom:1cm;
+}
+.list1,.list2{
+    margin: auto;
+    padding-top:25px;
+    padding-left:20px;
+    width:80%;
+    height:110px;
+    background-color: #DDDDFF;
+    transition: 0.3s;
+    box-shadow: 5px 5px 5px#BEBEBE;
+}
+.box1,.box2{
+    box-shadow: inset 0px 5px 5px#BEBEBE;
+    margin: auto;
+    padding-left:20px;
+    width:80%;
+    height:0px;
+    overflow:hidden;
+    background-color: #FCFCFC;
+}
+.list1:hover,.list2:hover{
+    background-color: #AAAAFFFF;
+    cursor: pointer;
+}
+h1{
+    font-size:1.3cm;
+}
+.arrow1,.arrow2{
+    margin-left:93%;
+    margin-top:-6%;
+    width:70px;
+    height:40px;
+    transition: transform 0.3s; 
+}
+.footer_area{
+    margin-top:0%;
+    background-color: #ECECFF;
+    width:100%;
+    height:75px;
+}
+.ig_iocn{
+    width:70px;
+    height:70px;
+}
+.line_iocn{
+    width:75px;
+    height:75px;
+}
+
+
+
+
+/*動畫*/
+/*-----------------------------------------------------------------------------------------------------------*/
+.open_box{
+   animation: openbox 0.4s forwards;
+}
+.close_box{
+    animation: closebox 0.4s forwards;
+}
+.list_foces{
+    background-color: #AAAAFFFF;
+}
+.arrow_run{
+    transform:rotate(180deg);
+}
+@keyframes openbox{
+    from{
+        height:0px;
+    }to{
+        height:200px;
+    }
+}
+@keyframes closebox{
+    from{
+        height:200px;
+    }to{
+        height:-5px;
+    }
+}
+/*RWD*/
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 1950px) { /*Computer*/
+
+} 
+@media (max-width:1280px){ /*Computer_text*/
+    header .navbar-brand{
+        font-size:40px;
+    }
+    header .nav-item{
+        font-size:70%;
+    }
+    .list1,.list2{
+        padding-top:15px;
+        padding-left:20px;
+        height:70px;
+    }
+    h1{
+        font-size:0.9cm;
+    }
+    h2{
+        font-size:0.6cm;
+    }
+    .arrow1,.arrow2{
+        margin-left:94%;
+        margin-top:-8%;
+        width:40px;
+        height:20px;
+    }
+    .footer_area{
+        height:50px;
+    }
+    .ig_iocn{
+        width:50px;
+        height:50px;
+    }
+    .line_iocn{
+        width:50px;
+        height:50px;
+    }
+}
+@media (max-width:990px){ /*Phone*/
+    header .navbar-brand{
+        margin:0 auto;
+        font-size:70px;
+    }
+    header button{
+        width:10%;
+        height:2cm;
+    }
+    header .nav-item{
+        font-size:150%;
+    }
+    .Area{
+        padding-top:1.5cm;
+        padding-bottom:1.5cm;
+    }
+    .list1,.list2{
+        padding-top:25px;
+        padding-left:40px;
+        height:100px;
+        width:90%;
+    }
+    h1{
+        font-size:1.2cm;
+    }
+    .box1,.box2{
+        margin: auto;
+        padding-left:40px;
+        width:90%;
+        height:0px;
+        overflow:hidden;
+        background-color: #FCFCFC;
+    }
+    h2{
+        font-size:1.2cm;
+    }
+    .footer_area{
+        height:110px;
+        text-align: center;
+    }
+    .arrow1,.arrow2{
+        margin-left:88%;
+        margin-top:-12%;
+        width:70px;
+        height:35px;
+    }
+    .ig_iocn{
+        width:100px;
+        height:100px;
+    }
+    .line_iocn{
+        width:100px;
+        height:100px;
+    }
+    @keyframes openbox{
+        from{
+            height:0px;
+        }to{
+            height:300px;
+        }
+    }
+    @keyframes closebox{
+        from{
+            height:300px;
+        }to{
+            height:-5px;
+        }
+    }
+}
