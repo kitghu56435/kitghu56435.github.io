@@ -1,0 +1,84 @@
+body{
+    font-family: '微軟正黑體';
+}
+header{
+    font-size:30px;
+}
+header .navbar-brand{
+    font-size:50px;
+    margin-left:0.5cm;
+}
+header .nav-item{
+    margin-left:0.5cm;
+    margin-right:0.5cm;
+}
+
+
+
+.footer_area{
+    background-color: #ECECFF;
+    width:100%;
+    height:75px;
+}
+.ig_iocn{
+    width:70px;
+    height:70px;
+}
+.line_iocn{
+    width:75px;
+    height:75px;
+}
+/*RWD*/
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 1950px) { /*PC_Computer*/
+   
+}  
+@media (max-width: 1280px) { /*MD_Computer*/
+    header .navbar-brand{
+        font-size:35px;
+    }
+    header .nav-item{
+        font-size:70%;
+    }
+   
+    .footer_area{
+        height:50px;
+    }
+    .ig_iocn{
+        width:50px;
+        height:50px;
+    }
+    .line_iocn{
+        width:50px;
+        height:50px;
+    }
+}  
+@media (max-width:990px){ /*Phone*/
+    header .navbar-brand{
+        margin:0 auto;
+        font-size:70px;
+    }
+    header button{
+        width:10%;
+        height:2cm;
+    }
+    header .nav-item{
+        font-size:150%;
+    }
+    
+    .footer_area{
+        height:110px;
+        text-align: center;
+    }
+    .ig_iocn{
+        width:100px;
+        height:100px;
+    }
+    .line_iocn{
+        width:100px;
+        height:100px;
+    }
+}
