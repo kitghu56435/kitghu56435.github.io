@@ -1,0 +1,160 @@
+body{
+    font-family: '微軟正黑體';
+}
+header{
+    font-size:30px;
+}
+header .navbar-brand{
+    font-size:50px;
+    margin-left:0.5cm;
+}
+header .nav-item{
+    margin-left:0.5cm;
+    margin-right:0.5cm;
+}
+.Area{
+    width:100%;
+    height:670px;
+    background-color:#ECECFF;
+    margin-bottom:1%;
+    padding:3cm 5cm 0px 5cm;
+}
+.title{
+    font-size:60px;
+    font-weight: bold;
+}
+p{
+    font-size:40px;
+}
+.text{
+    font-size:20px;
+}
+.Area a{
+    position: absolute;
+    font-size:28px;
+    padding:10px 30px;
+    border-radius: 25px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #B9B9FF;
+    transition: 0.3s;
+    margin-top:20px;
+}
+.Area a:hover{
+    transform: scale(1.05);
+    background-color: #7D7DFF;
+    color:white;
+    cursor: pointer;
+}
+
+
+.footer_area{
+    background-color: #ECECFF;
+    width:100%;
+    height:75px;
+}
+.ig_iocn{
+    width:70px;
+    height:70px;
+}
+.line_iocn{
+    width:75px;
+    height:75px;
+}
+/*RWD*/
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 1950px) { /*PC_Computer*/
+   
+}  
+@media (max-width: 1280px) { /*MD_Computer*/
+    header .navbar-brand{
+        font-size:35px;
+    }
+    header .nav-item{
+        font-size:70%;
+    }
+    .Area{
+        padding:2cm 3.5cm 0px 3.5cm;
+        height:435px;
+    }
+    .title{
+        font-size:38px;
+        font-weight: bold;
+    }
+    p{
+        font-size:23px;
+    }
+    .text{
+        font-size:14px;
+    }
+    .Area a{
+        font-size:18px;
+        padding:8px 20px;
+        margin-top:15px;
+    }
+    .footer_area{
+        height:50px;
+    }
+    .ig_iocn{
+        width:50px;
+        height:50px;
+    }
+    .line_iocn{
+        width:50px;
+        height:50px;
+    }
+}  
+@media (max-width:990px){ /*Phone*/
+    header .navbar-brand{
+        margin:0 auto;
+        font-size:70px;
+    }
+    header button{
+        width:10%;
+        height:2cm;
+    }
+    header .nav-item{
+        font-size:150%;
+    }
+    .Area{
+        padding:3cm 0.5cm 0px 0.5cm;
+        height:800px;
+    }
+    .title{
+        font-size:55px;
+        font-weight: bold;
+        text-align: center;
+    }
+    p{
+        margin-top:20px;
+        margin-bottom:20px;
+        text-align: center;
+        font-size:50px;
+    }
+    .text{
+        text-align:center ;
+        font-size:30px;
+    }
+    .Area a{
+        font-size:40px;
+        padding:8px 20px;
+        margin-top:60px;
+        margin-left:37%;
+    }
+    .footer_area{
+        height:110px;
+        text-align: center;
+    }
+    .ig_iocn{
+        width:100px;
+        height:100px;
+    }
+    .line_iocn{
+        width:100px;
+        height:100px;
+    }
+}
