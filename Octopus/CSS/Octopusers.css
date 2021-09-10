@@ -1,0 +1,413 @@
+body{
+    font-family: '微軟正黑體';
+}
+header{
+    font-size:30px;
+}
+header .navbar-brand{
+    font-size:50px;
+    margin-left:0.5cm;
+}
+header .nav-item{
+    margin-left:0.5cm;
+    margin-right:0.5cm;
+}
+
+.Area1{
+    text-align: left;
+    padding:1.5cm 5cm 1.5cm 5cm;
+    background-color:#ECECFF;
+}
+.Area2{
+    padding:1cm 5cm 1cm 5cm;
+    background-color:white;
+}
+hr{
+    border: 1px solid black;
+}
+h1{
+    font-size: 50px;
+    font-weight:normal;
+}
+.phone_h1{
+    display: none;
+}
+h4{
+    font-size:30px;
+    margin-left:5px;
+    margin-top:-85px;
+    opacity: 0;
+    animation: Showtext 1s 1s forwards;
+}
+.A1{
+    float:left;
+    margin-left:9%;
+}
+.A2{
+    float:left;
+    margin-left:9%;
+}
+.A1_box,.A2_box{
+    height:500px;
+    width:550px;
+    box-shadow: inset 0px 0px 10px#000079;
+    background-color: #B9B9FF;
+    overflow: hidden;
+}
+.b1{
+    position: relative;
+    float:left;
+    width:80px;
+    height:75%;
+    top:25%;
+    background-color: brown;
+    margin-left:16%;
+    white-space:nowrap;
+    animation: ran1 1s;
+    background-image:url("../Image/Cylinder.png") ;
+}
+.b2{
+    position: relative;
+    float:left;
+    width:80px;
+    height:55%;
+    top:45%;
+    background-color: brown;
+    margin-left:13%;
+    white-space:nowrap;
+    animation: ran2 1s;
+    background-image:url("../Image/Cylinder.png") ;
+}
+.b3{
+    position: relative;
+    float:left;
+    width:80px;
+    height:35%;
+    top:65%;
+    background-color: brown;
+    margin-left:16%;
+    white-space:nowrap;
+    animation: ran3 1s;
+    background-image:url("../Image/Cylinder.png") ;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom:30px;
+}
+.Button_Area{
+    padding:0cm 1.4cm 1cm 1.4cm;
+}
+.btn_1,.btn_2,.btn_3,.btn_4,.btn_5{
+    float:left;
+    height:250px;
+    width:250px;
+    color:white;
+    background-color: blue;
+    margin-left:2%;
+    margin-bottom:2%;
+    transition: 0.3s;
+}
+.btn_1:hover,.btn_2:hover,.btn_3:hover,.btn_4:hover,.btn_5:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.Area2 span{
+    position: relative;
+    top:80%;
+    font-size:35px;
+    margin-left:5px;
+}
+.black_screen{
+    position:fixed;
+    z-index: -1;
+    width:100%;
+    height:120%;
+    background-color: black;
+    opacity: 0;
+    transition: 0.5s;
+}
+.Message_box{
+    position:fixed;
+    z-index: -1;
+    margin-left:30%;
+    margin-top:2%;
+    padding:20px 1cm 0cm 1cm;
+    background-color:#ECECFF;
+    width:40%;
+    height:90%;
+    opacity: 0;
+    transition: 0.5s;
+}
+.Message_img{
+   width:100%;
+}
+.Message_text{
+    font-size:22px;
+}
+p{
+    font-size:50px;
+    color:black;
+}
+.Message_box span{
+    float:right;
+    font-size:20px;
+}
+
+
+.footer_area{
+    background-color: #ECECFF;
+    width:100%;
+    height:75px;
+}
+.ig_iocn{
+    width:70px;
+    height:70px;
+}
+.line_iocn{
+    width:75px;
+    height:75px;
+}
+/*動畫*/
+/*-----------------------------------------------------------------------------------------------------------*/
+.showblack{
+    z-index: 1;
+    opacity: 0.5;
+}
+.showMessage{
+    z-index: 1;
+    opacity: 1;
+}
+@keyframes ran1{
+    from{
+        height:0%;
+        top:100%;
+    }to{
+        height:80%;
+        top:25%;
+    }
+}
+@keyframes ran2{
+    from{
+        height:0%;
+        top:100%;
+    }to{
+        height:55%;
+        top:45%;
+    }
+}
+@keyframes ran3{
+    from{
+        height:0%;
+        top:100%
+    }to{
+        height:35%;
+        top:65%;
+    }
+}
+@keyframes Showtext{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+/*RWD*/
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 1950px) { /*PC_Computer*/
+   
+}  
+@media (max-width: 1280px) { /*MD_Computer*/
+    header .navbar-brand{
+        font-size:35px;
+    }
+    header .nav-item{
+        font-size:70%;
+    }
+
+    .Area1{
+        padding:1cm 3.5cm 1.5cm 3.5cm;
+    }
+    .Area2{
+        padding:1cm 3.5cm 1cm 3.5cm;
+    }
+    h1{
+        font-size: 35px;
+    }
+    h4{
+        font-size:20px;
+        margin-left:5px;
+        margin-top:-55px;
+    }
+    .A1{
+        margin-left:7%;
+    }
+    .A2{
+        margin-left:7%;
+    }
+    .A1_box,.A2_box{
+        height:350px;
+        width:400px;
+    }
+    .b1{
+        width:60px;
+        margin-left:16%;
+    }
+    .b2{
+        width:60px;
+        margin-left:12%;
+    }
+    .b3{
+        width:60px;
+        margin-left:16%;
+    }
+    .title{
+        font-size: 35px;
+    }
+    .Button_Area{
+        padding:0cm 1.5cm 1cm 1.5cm;
+    }
+    .btn_1,.btn_2,.btn_3,.btn_4,.btn_5{
+        height:200px;
+        width:200px;
+    }
+    .Area2 span{
+        top:76%;
+        font-size:32px;
+    }
+    .Message_box{
+        margin-left:30%;
+        margin-top:2%;
+        padding:20px 1cm 0cm 1cm;
+        width:44%;
+        height:90%;
+    }
+    .Message_text{
+        font-size:16px;
+        margin-top:-15px;
+    }
+    p{
+        font-size:30px;
+        color:black;
+    }
+    .Message_box span{
+        font-size:16px;
+    }
+
+
+    .footer_area{
+        height:50px;
+    }
+    .ig_iocn{
+        width:50px;
+        height:50px;
+    }
+    .line_iocn{
+        width:50px;
+        height:50px;
+    }
+}  
+@media (max-width:990px){ /*Phone*/
+    header .navbar-brand{
+        margin:0 auto;
+        font-size:70px;
+    }
+    header button{
+        width:10%;
+        height:2cm;
+    }
+    header .nav-item{
+        font-size:150%;
+    }
+    
+    .Area1{
+        padding:1.5cm 0.5cm 1.5cm 0.5cm;
+        text-align: center;
+    }
+    .Area2{
+        padding:1cm 0.5cm 1cm 0.5cm;
+    }
+    h1{
+        display: none;
+    }
+    .phone_h1{
+        font-size: 60px;
+        display: block;
+    }
+    h4{
+        font-size:30px;
+        margin-left:2px;
+        margin-top:-85px;
+    }
+    .A1{
+        margin-left:2%;
+    }
+    .A2{
+        margin-left:2%;
+    }
+    .A1_box,.A2_box{
+        height:400px;
+        width:450px;
+        margin-top:0.5cm;
+    }
+    .b1{
+        width:70px;
+        margin-left:16%;
+    }
+    .b2{
+        width:70px;
+        margin-left:11%;
+    }
+    .b3{
+        width:70px;
+        margin-left:16%;
+    }
+    .title{
+        font-size: 60px;
+        margin-bottom:40px;
+    }
+    .Button_Area{
+        padding:0cm 1.2cm 1cm 1.2cm;
+    }
+    .btn_1,.btn_2,.btn_3,.btn_4,.btn_5{
+        height:400px;
+        width:400px;
+    }
+    .Area2 span{
+        top:76%;
+        font-size:68px;
+    }
+    .Message_box{
+        margin-top:40%;
+        margin-left:10%;
+        width:80%;
+        height:1100px;
+    }
+    .Message_text{
+        font-size:40px;
+    }
+    p{
+        font-size:80px;
+        color:black;
+    }
+    .Message_box span{
+        font-size:30px;
+    }
+
+
+    .footer_area{
+        height:110px;
+        text-align: center;
+    }
+    .ig_iocn{
+        width:100px;
+        height:100px;
+    }
+    .line_iocn{
+        width:100px;
+        height:100px;
+    }
+}
