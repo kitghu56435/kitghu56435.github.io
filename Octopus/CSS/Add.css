@@ -1,0 +1,178 @@
+body{
+    font-family: '微軟正黑體';
+}
+header{
+    font-size:30px;
+}
+header .navbar-brand{
+    font-size:50px;
+    margin-left:0.5cm;
+}
+header .nav-item{
+    margin-left:0.5cm;
+    margin-right:0.5cm;
+}
+
+.Area{
+    width:100%;
+    background-color:#ECECFF;
+    margin-bottom:2%;
+    padding:2cm 4cm 5cm 4cm;
+}
+.title{
+    font-size:60px;
+    font-weight: bold;
+}
+.Text_img{
+    float: right;
+    width:470px;
+}
+p{
+    font-size:40px;
+}
+.text{
+    margin-top:1cm;
+    font-size:24px;
+    width:50%;
+}
+.Area .Ba{
+    position: absolute;
+    font-size:35px;
+    padding:30px 60px;
+    border-radius: 25px;
+    color:black;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #B9B9FF;
+    transition: 0.3s;
+    margin-top:40px;
+    margin-left:13%;
+}
+.Area .Ba:hover{
+    transform: scale(1.02);
+    background-color: #7D7DFF;
+    color:white;
+    cursor: pointer;
+}
+
+
+.footer_area{
+    background-color: #ECECFF;
+    width:100%;
+    height:75px;
+}
+.ig_iocn{
+    width:70px;
+    height:70px;
+}
+.line_iocn{
+    width:75px;
+    height:75px;
+}
+/*RWD*/
+/*-----------------------------------------------------------------------------------------------------------*/
+
+
+
+@media (max-width: 1950px) { /*PC_Computer*/
+   
+}  
+@media (max-width: 1280px) { /*MD_Computer*/
+    header .navbar-brand{
+        font-size:35px;
+    }
+    header .nav-item{
+        font-size:70%;
+    }
+    .Area{
+        padding:1.5cm 2.5cm 3.2cm 2.5cm;
+    }
+    .title{
+        font-size:40px;
+    }
+    p{
+        font-size:28px;
+    }
+    .text{
+        margin-top:0.5cm;
+        font-size:16px;
+        width:50%;
+    }
+    .Area .Ba{
+       padding:18px 45px;
+       font-size:22px;
+       margin-top:25px;
+    }
+    .Text_img{
+        width:320px;
+    }
+    .footer_area{
+        height:50px;
+    }
+    .ig_iocn{
+        width:50px;
+        height:50px;
+    }
+    .line_iocn{
+        width:50px;
+        height:50px;
+    }
+}  
+@media (max-width:990px){ /*Phone*/
+    header .navbar-brand{
+        margin:0 auto;
+        font-size:70px;
+    }
+    header button{
+        width:10%;
+        height:2cm;
+    }
+    header .nav-item{
+        font-size:150%;
+    }
+    .Area{
+        padding:3cm 0.2cm 6cm 0.2cm;
+    }
+    .title{
+        font-size:55px;
+        text-align: center;
+    }
+    .Text_img{
+        float:none;
+        width:460px;
+        margin-left:26%;
+        margin-top:0px;
+    }
+    p{
+        margin-top:20px;
+        margin-bottom:20px;
+        text-align: center;
+        font-size:50px;
+    }
+    .text{
+        margin:auto;
+        width:80%;
+        text-align:center ;
+        font-size:38px;
+        margin-top:30px;
+        margin-bottom:50px;
+    }
+    .Area .Ba{
+        font-size:50px;
+        padding:35px 60px;
+        margin-top:30px;
+        margin-left:32%;
+    }
+    .footer_area{
+        height:110px;
+        text-align: center;
+    }
+    .ig_iocn{
+        width:100px;
+        height:100px;
+    }
+    .line_iocn{
+        width:100px;
+        height:100px;
+    }
+}

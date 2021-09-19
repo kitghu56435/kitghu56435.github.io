@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link  rel="stylesheet" href="CSS/Philosophy.css">
+    <title>經營理念</title>
+</head>
+<body>
+   <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Octopus</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 600px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Items/Item_Lift.html">項目專區</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Philosophy.html">經營理念</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Add.html">加入我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Question.html">常見問題</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Octopusers.html">Octopusers</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="write_area">
+        <div class="area1">
+            <div class="title1" id="title1">一切是從堆積如山的雜物說起</div>
+            <div class="img_box1" id="img_box1"><img src="Image/Philosophy1.jpg"></div>
+            <div class="text1">
+                大家常覺得自己被過多的東西壓到喘不過氣嗎？每次逛街看到可愛的杯子、包包時明知家裏已經很多了，
+                但那個不聽話的小手就是不斷在往家裡進貨。斷捨離是目前很時尚的提倡，
+                我們覺得它難被執行的原因是大部分的人都是被勤檢持家的理念養大的，
+                完好如初的東怎麼能說扔就扔呢，還能使用的東西就怎麼能直接回收呢。
+            </div>
+        </div>
+        <div style="clear:both"></div> 
+        <div class="area2">
+            <div class="title2">為什麼要透過Octopus?</div>
+            <div class="img_box2" id="img_box2"><img src="Image/Philosophy2.png"></div>
+            <div class="text2">
+                在這裏我們替所有的東西找到新的主人，讓它們都得到重新發揮自己價值的機會，
+                而不是一直堆在充滿灰塵的角落深處，當然我們不是第三方賣家，
+                也不是二手拍賣網站。在這裡所有的交易金額都會全數捐到慈善的工益團體，
+                在大家捐出自己物品的同時也可以透過Octopus將這份心意延伸出更多的愛心。
+            </div>
+        </div>
+        <div style="clear:both"></div>
+        <div class="area3">
+            <div class="title3">我們想達成的事情</div>
+            <div class="img_box3" id="img_box3"><img src="Image/Philosophy3.jpg"></div>
+            <div class="text3">
+                我們希望透過Octopus這個平台幫助大家，將自己封塵在房間或是倉庫已久的物品，
+                重新恢復到屬於它的價值流動裡，讓他繼續服務下一個需要它的主人直到完全消耗殆盡為止。
+                經由Octopus的撮合，不單只是將自己的物品做捐出
+                ，而在這個過程中也可以幫助到社會中的弱勢團體，達到回饋社會的目的。
+            </div>
+        </div>
+        <div style="clear:both"></div>
+    <div>
+
+
+
+    <footer>
+        <div class="footer_area">
+            <a href="https://www.instagram.com/octopus.0309/"><img class="ig_iocn" src="Image/IG_icon.png"></a>
+            <a href="https://lin.ee/8OeverR"><img class="line_iocn" src="Image/Line_iocn.png"></a>
+        </div>
+    </footer>
+
+
+    <script>     
+        function box1move() {
+            var obj = document.getElementById("img_box1");
+            if (window.scrollY >= obj.offsetTop-700) {
+                obj.classList.add('move1');
+            } 
+        }
+        function box2move() {
+            var obj = document.getElementById("img_box2");
+            if (window.scrollY >= obj.offsetTop-700) {
+                obj.classList.add('move2');
+            } 
+        }
+        function box3move() {
+            var obj = document.getElementById("img_box3");
+            if (window.scrollY >= obj.offsetTop-700) {
+                obj.classList.add('move1');
+            } 
+        }
+        window.addEventListener("scroll", box1move);
+        window.addEventListener("scroll", box2move);
+        window.addEventListener("scroll", box3move);
+        box1move();
+    </script>
+</body>
+</html>
