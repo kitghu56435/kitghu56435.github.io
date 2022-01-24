@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link  rel="stylesheet" href="CSS/Octopusers.css">
+    <script src="JS/Octopusers.js"></script>
+    <title>Octopus</title>
+    
+</head>
+<body>
+    <div class="black_screen" id="black_screen" onclick="hiddenblack()"></div>
+    <div class="Message_box" id="Message_box">
+        <img class="Message_img" id="Message_img" src="Image/Philosophy1.jpg">
+        <span id="Message_date">110/9/9</span>
+        <b><p id="Message_Label">Label</p></b>
+        <div class="Message_text" id="Message_text">高高高</div>
+    </div>
+   <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">Octopus</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 600px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Items/Item_Lift.html">項目專區</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Philosophy.html">經營理念</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Add.html">加入我們</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Question.html">常見問題</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Octopusers.html">Octopusers</a>
+                    </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="Area0">
+        <div class="title">Octopusers代表著我們的精神</div>
+        <div class="text">
+            在這裡可以看到我們每一筆的交易紀錄，與所有捐款紀錄<br>
+            並且會呈現目前為止所有捐出數目與捐款金額累計的數量<br>
+            讓你在消費的同時也可以做愛心！
+        </div>
+    </div>
+    <div class="Area1">
+            <div class="A1">
+                <h1>總捐出金額：60$</h1>
+                <h1 class="phone_h1">總捐出金額<br>60$</h1>
+                <hr>
+                <div class="A1_box">
+                    <div class="b2_1"><h4><br>0</h4></div>
+                    <div class="b1_1"><h4>匿名<br>60</h4></div>
+                    <div class="b3_1"><h4><br>0</h4></div>
+                </div>
+            </div>
+            <div class="A2">
+                <h1>總捐出物品：86</h1>
+                <h1 class="phone_h1">總捐出物品<br>86</h1>
+                <hr>
+                <div class="A2_box">
+                    <div class="b2_2"><h4><br>0</h4></div>
+                    <div class="b1_2"><h4>葳葳<br>86</h4></div>
+                    <div class="b3_2"><h4><br>0</h4></div>
+                </div>
+            </div>
+            <div style="clear:both;"></div>
+    </div>
+    <div class="Area2">
+        <div class="title">近期交易</div>
+           <table align="center">
+               <tr align="center" style="font-weight: bold;">
+                   <td></td><td>交易日期</td><td>捐出者</td><td>捐出物品</td><td>捐款者</td><td>捐款總金額</td>
+               </tr>
+               <tr>
+                   <td>1</td><td>2021年12月14日</td><td>葳葳</td><td>KITTY系列墜飾</td><td>匿名</td><td>60NT$</td>
+               </tr>
+            </table>
+        </div>
+    </div>
+    <div class="Area3">
+        <div class="title">最新消息</div>
+        <div class="Button_Area">
+          <div class="btn" style="background-image:url('Image/Post/weiwei2.jpg')" onclick="showblack(4)"><span>葳葳的捐蹭!</span></div>
+          <div class="btn" style="background-image:url('Image/Post/kitchen_post.png')" onclick="showblack(3)"><span>「廚具館」!</span></div>
+          <div class="btn" style="background-image:url('Image/Post/P28_1.jpg')" onclick="showblack(2)"><span>第一個捐款交易</span></div>
+          <div class="btn" style="background-image:url('Image/Post/weiwei.jpg')" onclick="showblack(1)"><span>葳葳的捐贈</span></div>
+          <div class="btn" style="background-image:url('Image/Post/Birthday.png')" onclick="showblack(0)"><span>Octopus誕生日</span></div>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+    
+    <footer>
+        <div class="footer_area">
+            <a href="https://www.instagram.com/octopus.0309/"><img class="ig_iocn" src="Image/IG_icon.png"></a>
+            <a href="https://lin.ee/8OeverR"><img class="line_iocn" src="Image/Line_iocn.png"></a>
+        </div>
+    </footer>
+</body>
+</html>
